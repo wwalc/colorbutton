@@ -1,24 +1,20 @@
-CKEditor ColorButton plugin for Drupal 8
-=========================================
+CKEditor Color Button plugin for Drupal 8
+-----------------------------------------
 
 A module that register a plugin which provides Text Color and Background Color buttons: http://ckeditor.com/addon/colorbutton
 
-Drupal version: 8.x
-
-## Installation
+### Installation
 
 **Important:** This module depends on the [Panel Button](https://github.com/wwalc/panelbutton) module, install Panel Button first.
 
-1. Download [Color Button](https://github.com/wwalc/colorbutton) the module, put it into the module folder, then enable it.
+1. Download the [Color Button](https://github.com/wwalc/colorbutton) module, put it into the module folder, then enable it.
 2. Edit selected text format where CKEditor is enabled.
 3. Adjust toolbar configuration - add Text/Background Color buttons to the toolbar.
 4. Save the text format settings.
 
-### Note
+**Note:** Both buttons are using inline CSS styles to style the content, so they will work only in text formats where **HTML Filter** ("Limit allowed HTML tags") **is not enabled**
 
-Both buttons are using inline CSS styles to style the content, so they will work only in text formats where **HTML Filter** ("Limit allowed HTML tags") **is not enabled**
-
-## License
+### License
 
 Copyright (c) 2003-2014, [CKSource](http://cksource.com/) - Frederico Knabben. All rights reserved.
 
