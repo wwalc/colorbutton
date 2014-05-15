@@ -1,0 +1,8 @@
+name: CKEditor Color Button
+type: module
+description: This plugin adds font color and background-color text formatting feature to the editor.
+core: 8.x
+package: CKEditor
+version: VERSION
+dependencies:
+  - ckeditor
