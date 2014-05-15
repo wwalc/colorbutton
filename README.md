@@ -7,7 +7,7 @@ A module that register a plugin which provides Text Color and Background Color b
 
 **Important:** This module depends on the [Panel Button](https://github.com/wwalc/panelbutton) module, install Panel Button first.
 
-1. Download the [Color Button](https://github.com/wwalc/colorbutton) module, put it into the module folder, then enable it.
+1. Download the [Color Button](https://github.com/wwalc/colorbutton) module, put it into the modules folder, then enable it.
 2. Edit selected text format where CKEditor is enabled.
 3. Adjust toolbar configuration - add Text/Background Color buttons to the toolbar.
 4. Save the text format settings.
