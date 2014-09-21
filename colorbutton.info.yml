@@ -6,3 +6,4 @@ package: CKEditor
 version: VERSION
 dependencies:
   - ckeditor
+  - panelbutton

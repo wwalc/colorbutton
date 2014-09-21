@@ -1,16 +1,1 @@
 <?php
-
-/**
- * Implements hook_editor_js_settings_alter
- * @param array $settings
- */
-function colorbutton_editor_js_settings_alter(array &$settings) {
-  if (empty($settings['editor']['formats']['full_html'])) {
-    return;
-  }
-
-  $full_html = &$settings['editor']['formats']['full_html'];
-  if ($full_html['editorSettings']['allowedContent'] === true) {
-    unset($full_html['editorSettings']['allowedContent']);
-  }
-}
