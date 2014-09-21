@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains \Drupal\colorbutton\Plugin\CKEditorPlugin\ColorButton.
+ * Definition of \Drupal\colorbutton\Plugin\CKEditorPlugin\ColorButton.
  */
 
 namespace Drupal\colorbutton\Plugin\CKEditorPlugin;
@@ -10,19 +10,10 @@ namespace Drupal\colorbutton\Plugin\CKEditorPlugin;
 use Drupal\ckeditor\CKEditorPluginInterface;
 use Drupal\ckeditor\CKEditorPluginButtonsInterface;
 use Drupal\Component\Plugin\PluginBase;
-use Drupal\ckeditor\Annotation\CKEditorPlugin;
-// Do not remove the line below because of:
-// [Semantical Error] The annotation "@Translation" in class
-// Drupal\ckeditor_smiley\Plugin\CKEditorPlugin\Smiley was never imported.
-// Did you maybe forget to add a "use" statement for this annotation?
-use Drupal\Core\Annotation\Translation;
 use Drupal\editor\Entity\Editor;
 
 /**
  * Defines the "ColorButton" plugin.
- * @see MetaContextual
- * @see MetaButton
- * @see MetaContextualAndButton
  *
  * @CKEditorPlugin(
  *   id = "colorbutton",
